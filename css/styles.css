@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container {
+    
+}
+.navbar-brand {
+  padding: 5px;
+}
+
+.navbar-brand h1 { 
+  color: #557c3e;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+button.navbar-toggle {
+    background: rgba(85, 124, 62, 0.6);
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar a:hover {
+    background: rgba(85, 124, 62, 0.6);
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  color: #000;
+  border: 1px solid #000;
+}
+
+
+
+#collapsable-nav {
+    margin-top: 50px;
+    width: 100%;
+    margin: auto;
+    
+}
+#nav-list {
+    background: rgba(85, 124, 62, 0.6);
+     
+}
+
+#nav-list a {
+  color: #000;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  background: rgba(85, 124, 62, 0.8);
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#chicken-article {
+    background: rgba(85, 124, 62, 0.7);
+    height: 1000px;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#chicken-article h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
+}
